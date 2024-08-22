@@ -1,0 +1,182 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+}
+
+.dropdown-item {
+    background-color: rgb(231, 231, 231);
+    transition: 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.08);
+}
+
+.btn-primary {
+    margin: 2px;
+}
+
+.navbar {
+    z-index: 1000;
+    /* Ensure the navbar is above other content */
+}
+
+#main-section {
+    position: relative;
+    height: 100vh;
+    background: url('../img/3d-illustration-smartphone-with-products-coming-out-screen-online-shopping-e-commerce-concept.jpg') no-repeat center center/cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    color: #fff;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+}
+
+.aboutus img {
+    max-width: 520px;
+    max-height: 400px;
+}
+
+.section-separator {
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgb(102, 102, 232);
+    /* Adjust the thickness and color of the separator line */
+}
+
+.range-bar {
+    position: relative;
+    height: 50px;
+    /* Increase height for better visibility */
+    margin-bottom: 20px;
+    /* Increase space between bars */
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.range-bar-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    /* Initial width */
+    transition: width 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    /* Increase font size */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /* Add text shadow for better readability */
+}
+
+.categories img {
+    width: 400px;
+    height: 250px;
+}
+
+.categories img .bestsellers {
+    height: 200px;
+}
+
+.bestsellers .icon-holder svg {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bestsellers .icon-holder .number {
+    font-size: 12rem;
+    align-items: center;
+    justify-content: center;
+    color: #d7dee0;
+}
+
+
+.bestsellers .feat {
+    color: black;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.navbar.dark-mode {
+    background-color: #1f1f1f;
+}
+
+.btn-primary.dark-mode {
+
+    background-color: #444;
+    border: none;
+}
+
+.cardd.dark-mode {
+    border-radius: 7%;
+    background-color: #444;
+    color: #fcfcfc;
+}
+
+.bestsellers .feat {
+    position: relative;
+    overflow: hidden;
+}
+
+.bestsellers .overlay-card {
+    border-radius: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.bestsellers .cardd:hover .overlay-card {
+    opacity: 3;
+}
