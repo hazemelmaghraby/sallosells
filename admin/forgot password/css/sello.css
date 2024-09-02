@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.dropdown-item {
+    background-color: rgb(231, 231, 231);
+    transition: 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.08);
+}
+
+.btn-primary {
+    margin: 2px;
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    max-width: 850px;
+    width: 100%;
+    max-height: 600px;
+    height: 100%;
+}
+
+.text-center {
+    margin-bottom: 60px;
+}
+
+/* Basic modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 1.75rem auto;
+    pointer-events: none;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.d-none {
+    display: none;
+}

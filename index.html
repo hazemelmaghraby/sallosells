@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalmaSello</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/sello.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <section>
+        <nav class="navbar fixed-top navbar-expand-lg" style="background-color: rgb(241, 246, 249);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/360_F_741178237_OeEQTCtISRv4kIFwke39dpyx2PGVA8JV.jpg" style="border-radius:30%"
+                        alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    SalloSells
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Marketplace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Electronics</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Clothing</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Others</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="ms-auto">
+                        <a href="">
+                            <button class="btn btn-primary" type="button">Login</button>
+                        </a>
+                        <a href="">
+                            <button class="btn btn-primary" type="button">Sign Up</button>
+                        </a>
+                        <a href="admin/index.html">
+                            <button class="btn btn-primary" style="background-color: brown; border: none;"
+                                type="button">Admin Login</button>
+                        </a>
+                        <button id="darkModeToggle" class="btn btn-secondary ms-2" type="button">Dark Mode</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="main-section" class="d-flex justify-content-center align-items-center text-center">
+        <div class="overlay">
+            <div class="content">
+                <h1>Welcome to <span id="companyName" class="d-inline"></span></h1>
+                <p>Your journey to success starts here. Explore our features and get started today.</p>
+                <button id="getStartedBtn" class="btn btn-primary">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-5 aboutus">
+        <div class="about-and-line mb-2 mt-2" style="position: relative;">
+            <h1 style="text-align: center;">About Us</h1>
+        </div>
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="card col-lg-4 col-md-6" data-aos="fade-up">
+                    <i class="fas fa-question icon-ques"></i>
+                    <h5 class="card-title fs-1 card-title">Who We Are ?</h5>
+                    <p class="text-black-50">At InnovateTech Solutions, we are dedicated to pioneering the future of
+                        technology with groundbreaking solutions that drive progress and enhance the quality of life.
+                        Our mission is to
+                        transform ideas into reality through innovative technology, unparalleled expertise, and a
+                        relentless commitment to excellence. Founded in 2010, we have grown from a small startup into a
+                        global leader in technology solutions, serving clients across a diverse range of industries.</p>
+                    <a href="aboutus.html">
+                        <button class="btn btn-primary mb-2">Learn More</button>
+                    </a>
+                </div>
+
+                <div class="card col-lg-4 col-md-6" data-aos="fade-up">
+                    <i class="fa-solid fa-shield-halved icon"></i>
+                    <h5 class="card-title fs-1 card-title">Our Team</h5>
+                    <p class="text-black-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
+                        temporibus rerum possimus provident quos! Quibusdam corrupti hic aspernatur! Aperiam vitae
+                        repellendus veritatis sit ut velit magnam labore iste? Inventore, alias.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde hic deserunt facere necessitatibus
+                        voluptatum assumenda laborum dolore incidunt explicabo sunt voluptatem inventore perspiciatis
+                        cupiditate dolores laboriosam, officiis commodi molestiae quaerat.</p>
+                    <a href="aboutus.html">
+                        <button class="btn btn-primary mb-2">Learn More</button>
+                    </a>
+                </div>
+
+                <div class="card col-lg-4 col-md-6" data-aos="fade-up">
+                    <i class="fa-solid fa-cart-shopping icon"></i>
+                    <h5 class="card-title fs-1 card-title">Cart and Payment</h5>
+                    <p class="text-black-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+                        molestiae, dolore sed doloremque omnis est dolor praesentium tenetur consectetur. Fuga
+                        architecto quas labore neque veniam repudiandae laboriosam ut, optio tenetur! Lorem, ipsum dolor
+                        sit amet consectetur adipisicing elit. Nam, quo atque ullam tempora est officia delectus sit?
+                        Necessitatibus, inventore autem amet harum corrupti, beatae consectetur voluptatibus itaque
+                        praesentium temporibus dignissimos!</p>
+                    <a href="aboutus.html">
+                        <button class="btn btn-primary mb-2">Learn More</button>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Additional Sections -->
+    <section class="container pt-5 section-separator">
+
+    </section>
+    <section class="categories mt-1">
+        <div class="about-and-line mb-2 mt-2" style="position: relative;">
+            <h1 style="text-align: center;">Categories</h1>
+        </div>
+        <div class="container mt-5">
+
+            <h2>Product Availability</h2>
+            <div class="range-bar" data-color="#007bff">
+                <div class="range-bar-fill" data-percentage="70">Electronics (70%)</div>
+            </div>
+            <div class="range-bar" data-color="#28a745">
+                <div class="range-bar-fill" data-percentage="50">Clothe (50%)</div>
+            </div>
+            <div class="range-bar" data-color="#dc3545">
+                <div class="range-bar-fill" data-percentage="85">Accessories (85%)</div>
+            </div>
+            <div class="range-bar" data-color="#ffc107">
+                <div class="range-bar-fill" data-percentage="30">Designes (30%)</div>
+            </div>
+        </div>
+        <div class="bestsellers">
+            <div class="container  mt-5">
+                <h2>Bestsellers:</h2>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 cardd">
+                        <div class="feat" data-aos="fade-right">
+                            <div class="icon-holder position-relative">
+                                <i class="fa-solid fa-1 text-align-center ms-5 bottom-0 number"></i>
+                                <img src="img/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg" alt="Best Seller 1"
+                                    class="rounded">
+                            </div>
+                            <h4 class="mb-3 mt-3 text-uppercase">Guuci S4 Uni</h4>
+                            <p class="text-black-50">he Gucci S4 Uni is a sophisticated and stylish smartwatch designed
+                                to merge high fashion with cutting-edge technology. Featuring a sleek, modern design,
+                                the S4 Uni boasts a premium materials finish</p>
+                            <h3 id="item1">Price : ${Price}</h3>
+                            <a href="marketplace/index.html">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 cardd">
+                        <div class="feat" data-aos="fade-up">
+                            <div class="icon-holder position-relative">
+                                <i class="fa-solid fa-2 text-align-center ms-5 bottom-0 number"></i>
+                                <img src="img/612Vogi63uL.jpg" alt="Best Seller 1" class="rounded">
+                            </div>
+                            <h4 class="mb-3 mt-3 text-uppercase">Anker Soundcore Life P2i In-Ear Wireless Earphones</h4>
+                            <p class="text-black-50">The Anker Soundcore Life P2i In-Ear Wireless Earphones offer a
+                                blend of style, comfort, and impressive sound quality. Equipped with graphene drivers
+                            </p>
+                            <h3 id="item2">Price : ${Price}</h3>
+                            <a href="marketplace/index.html">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 cardd">
+                        <div class="feat" data-aos="fade-right">
+                            <div class="icon-holder position-relative">
+                                <i class="fa-solid fa-3 text-align-center ms-5 bottom-0 number"></i>
+                                <img src="img/08b53957469a7cfd16ed2320e32bc276.w1464.h600._CR132,0,1200,600_.jpg"
+                                    alt="Best Seller 1" class="rounded">
+                            </div>
+                            <h4 class="mb-3 mt-3 text-uppercase">Tommy Hilfiger Winter Bundle</h4>
+                            <p class="text-black-50 pp">
+                                Stay warm and stylish this winter with the Tommy Hilfiger Winter Bundle. This exclusive
+                                collection features a curated selection of premium winter essentials designed to keep
+                                you cozy while exuding effortless elegance.</p>
+                            <h3 id="item3"></h3>
+                            <a href="marketplace/index.html">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center text-lg-start">
+            <div class="container p-4">
+                <!-- Social media icons -->
+                <section class="mb-4">
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </section>
+
+                <!-- Links -->
+                <section class="mb-4">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <h5>About Us</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#!" class="text-white">Our Story</a></li>
+                                <li><a href="#!" class="text-white">Careers</a></li>
+                                <li><a href="#!" class="text-white">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <h5>Services</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#!" class="text-white">Web Design</a></li>
+                                <li><a href="#!" class="text-white">Development</a></li>
+                                <li><a href="#!" class="text-white">SEO</a></li>
+                                <h3 style="margin-top: 30px;">Check The Admin Login Page And Test The Validation System.
+                                </h3>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <h5>Contact</h5>
+                            <p>123 Street Name, City, Country</p>
+                            <p>Email: example@example.com</p>
+                            <p>Phone: +123 456 7890</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="text-center p-3 bg-dark text-white">
+                © 2024 SalloSells <br>
+                All Credits Goes To Hazem Elmaghraby
+            </div>
+        </footer>
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/scirpt.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
